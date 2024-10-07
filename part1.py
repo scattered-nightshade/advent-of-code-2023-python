@@ -2,7 +2,7 @@ import re
 import json
 arr = []
 
-with open('first-input.json') as f:
+with open('part1-input.json') as f:
     arr = json.load(f)
 
 newArr = []
